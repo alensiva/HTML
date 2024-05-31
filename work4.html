@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top and Bottom Divs with Images</title>
+<style>
+
+  .box {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  .box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div style="display: flex;">
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 1">
+  </div>
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 2">
+  </div>
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 3">
+  </div>
+</div>
+
+<div  style="display: flex;">
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 4">
+  </div>
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 5">
+  </div>
+  <div class="box">
+    <img src="naruo.jpg" alt="Image 6">
+  </div>
+</div>
+
+</body>
+</html>
